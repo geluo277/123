@@ -1,0 +1,10 @@
+手机编译 APK：
+1. 在 GitHub 创建一个空仓库。
+2. 把这个工程内的全部文件上传到仓库根目录。
+3. 特别确认 .github/workflows/build-apk.yml 已上传。
+4. 打开仓库 Actions。
+5. 选择 Build Android APK。
+6. 点击 Run workflow。
+7. 等待构建完成。
+8. 打开该次运行，在 Artifacts 下载 NeoX-NPK-Unpacker-debug。
+9. 解压后得到 app-debug.apk。
